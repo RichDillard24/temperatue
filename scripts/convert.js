@@ -7,6 +7,7 @@ function temp(){
     const fahrenheit=(celsius * 9/5) + 32
 
     document.getElementById("tempList").innerHTML+=`
+<<<<<<< HEAD
     <li> The conversion of Celcius ${celsius}  to Fahrenheit is ${fahrenheit} </li>`;
 }
 function Temp(){
@@ -29,4 +30,7 @@ function Temp(){
     <li> The conversion of Fahrenheit is ${f} to Celcius ${num} </li>`; 
     }
     
+=======
+    <li> The conversion of Celcius ${celsius} to Fahrenheit is  ${fahrenheit} </li>`;
+>>>>>>> a501768be8c5720e8d3fc6aedd1ae463d19feeef
 }
